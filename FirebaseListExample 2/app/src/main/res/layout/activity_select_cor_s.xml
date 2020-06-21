@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Second.SelectCorS">
+
+   <ImageView
+       android:id="@+id/tv_profile"
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:hint="닉네임"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/Consumer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소비자"/>
+
+    <Button
+        android:id="@+id/Sales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="집사" />
+
+</LinearLayout>
